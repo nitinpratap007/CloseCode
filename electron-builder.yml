@@ -1,0 +1,79 @@
+appId: com.closecode.app
+productName: CloseCode
+directories:
+  buildResources: build
+  output: release
+npmRebuild: false
+files:
+  - dist
+  - dist-electron
+  - "!**/*.ts"
+  - "!**/*.map"
+  - node_modules/**/*
+  # Monaco is 94 MB on disk, but Vite bundles it into dist/ at build time
+  # (src/monaco.ts does `import * as monaco from "monaco-editor"` and hands the
+  # result to `loader.config({ monaco })`, so nothing is loaded from node_modules
+  # at runtime). dev/ is the unminified AMD build, esm/ is the source Vite already
+  # consumed, min-maps/ is devtools-only source maps. Shipping them put a
+  # 100 MB installer on disk for a 12.6 MB app.
+  #
+  # These three are the whole package that survives (min/ and min-maps/ are
+  # already pruned by electron-builder's own dependency handling), so the
+  # monaco-editor directory ends up empty in the asar. `scripts/verify-asar.cjs`
+  # asserts exactly that, and asserts the 5 Monaco web workers are present in
+  # dist/assets — which is where the editor actually comes from at runtime.
+  #
+  # NOTE: these negations MUST stay after `node_modules/**/*`. electron-builder
+  # applies patterns in order and later matches win, so listing them first is a
+  # silent no-op (verified: asar stayed at 117 MB).
+  - "!node_modules/monaco-editor/dev/**"
+  - "!node_modules/monaco-editor/esm/**"
+  - "!node_modules/monaco-editor/min-maps/**"
+  - package.json
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+    - target: zip
+      arch: [x64]
+  artifactName: ${productName}-${version}-win-${arch}.${ext}
+  icon: build/icon.ico
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: CloseCode
+  installerIcon: build/icon.ico
+  uninstallerIcon: build/icon.ico
+mac:
+  target:
+    - target: dmg
+      arch: [x64, arm64]
+    - target: zip
+      arch: [x64, arm64]
+  artifactName: ${productName}-${version}-mac-${arch}.${ext}
+  icon: build/icon.icns
+linux:
+  target:
+    - target: AppImage
+      arch: [x64]
+    - target: snap
+      arch: [x64]
+    - target: deb
+      arch: [x64]
+    - target: zip
+      arch: [x64]
+  artifactName: ${productName}-${version}-linux-${arch}.${ext}
+  icon: build/icon.png
+dmg:
+  iconSize: 128
+  contents:
+    - x: 448
+      y: 342
+      type: link
+      path: /Applications
+    - x: 192
+      y: 342
+      type: file
+      path: /Applications

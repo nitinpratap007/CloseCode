@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------------------
+   Accessibility: visible focus indicators, skip link, sr-only live region
+   --------------------------------------------------------------------------- */
+
+/* Skip-to-content link */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  padding: 8px 16px;
+  background: rgb(var(--cc-accent));
+  color: rgb(var(--cc-bg));
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 0 0 8px 8px;
+  text-decoration: none;
+  pointer-events: none;
+  transition: top 0.15s ease;
+}
+.skip-link:focus {
+  top: 0;
+  pointer-events: auto;
+}
+
+/* Screen-reader only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Visible focus ring */
+*:focus-visible {
+  outline: 2px solid rgb(var(--cc-accent));
+  outline-offset: 2px;
+}
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+button:focus-visible,
+[role="button"]:focus-visible,
+[role="tab"]:focus-visible,
+[role="menuitem"]:focus-visible,
+[role="option"]:focus-visible,
+[role="treeitem"]:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid rgb(var(--cc-accent));
+  outline-offset: 2px;
+}
+
+/* Monaco editor focus ring */
+.monaco-editor:focus-within {
+  outline: 2px solid rgb(var(--cc-accent));
+  outline-offset: -2px;
+}
+
+/* ---------------------------------------------------------------------------
+   Workbench theme variables (Phase 15). Every cc-* Tailwind color reads these
+   RGB triplets — themes swap palettes by overriding them on <html>.
+   --------------------------------------------------------------------------- */
+:root,
+[data-theme="dark"] {
+  /* Close Code Dark (default) — Catppuccin Mocha flavor */
+  --cc-bg: 30 30 46; /* #1e1e2e */
+  --cc-surface: 37 37 54; /* #252536 */
+  --cc-border: 49 50 68; /* #313244 */
+  --cc-text: 205 214 244; /* #cdd6f4 */
+  --cc-muted: 108 112 134; /* #6c7086 */
+  --cc-accent: 137 180 250; /* #89b4fa */
+  --cc-accent-hover: 116 199 236; /* #74c7ec */
+  --cc-success: 166 227 161; /* #a6e3a1 */
+  --cc-warning: 249 226 175; /* #f9e2af */
+  --cc-error: 243 139 168; /* #f38ba8 */
+  --cc-sidebar: 24 24 37; /* #181825 */
+  --cc-statusbar: 17 17 27; /* #11111b */
+}
+
+[data-theme="light"] {
+  /* Close Code Light — Latte flavor */
+  --cc-bg: 239 241 245; /* #eff1f5 */
+  --cc-surface: 230 233 239; /* #e6e9ef */
+  --cc-border: 204 208 218; /* #ccd0da */
+  --cc-text: 76 79 105; /* #4c4f69 */
+  --cc-muted: 108 111 133; /* #6c6f85 */
+  --cc-accent: 30 102 245; /* #1e66f5 */
+  --cc-accent-hover: 4 165 229; /* #04a5e5 */
+  --cc-success: 64 160 43; /* #40a02b */
+  --cc-warning: 254 100 11; /* #fe640b */
+  --cc-error: 210 15 57; /* #d20f39 */
+  --cc-sidebar: 230 233 239; /* #e6e9ef */
+  --cc-statusbar: 239 241 245; /* #eff1f5 */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Cascadia Code", "Fira Code", "JetBrains Mono", Consolas, monospace;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(var(--cc-sidebar));
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--cc-border));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--cc-muted) / 0.85);
+}
+
+::selection {
+  background: rgb(var(--cc-accent) / 0.3);
+}
+
+/* --- Debugger (Phase 10) --- */
+.monaco-editor .cc-breakpoint-glyph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.monaco-editor .cc-breakpoint-glyph::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+  background: #f38ba8;
+  border: 1.5px solid #e64553;
+}
+
+.monaco-editor .cc-paused-line {
+  background: rgba(249, 226, 175, 0.16);
+  box-shadow: inset 3px 0 0 rgba(249, 226, 175, 0.95);
+}

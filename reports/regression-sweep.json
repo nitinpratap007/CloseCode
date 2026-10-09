@@ -1,0 +1,140 @@
+{
+  "suites": [
+    {
+      "name": "unit",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 25762
+    },
+    {
+      "name": "ipc-contract",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 320
+    },
+    {
+      "name": "asar-contents",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 1396
+    },
+    {
+      "name": "smoke",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 2648
+    },
+    {
+      "name": "settings",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 4536
+    },
+    {
+      "name": "phase2",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 5965
+    },
+    {
+      "name": "phase3",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 4648
+    },
+    {
+      "name": "phase4",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 8292
+    },
+    {
+      "name": "phase5",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 7430
+    },
+    {
+      "name": "phase6",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 17668
+    },
+    {
+      "name": "phase7",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 9372
+    },
+    {
+      "name": "phase8",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 19257
+    },
+    {
+      "name": "phase9",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 11174
+    },
+    {
+      "name": "phase10",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 7483
+    },
+    {
+      "name": "phase11",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 6579
+    },
+    {
+      "name": "phase12",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 8746
+    },
+    {
+      "name": "phase13",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 4098
+    },
+    {
+      "name": "phase14",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 13305
+    },
+    {
+      "name": "phase15",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 10711
+    },
+    {
+      "name": "phase17",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 1993
+    },
+    {
+      "name": "phase19",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 6231
+    },
+    {
+      "name": "phase21",
+      "pass": true,
+      "exitCode": 0,
+      "ms": 47787
+    }
+  ],
+  "passed": 22,
+  "total": 22,
+  "productName": "CloseCode",
+  "exe": "release/win-unpacked/CloseCode.exe"
+}

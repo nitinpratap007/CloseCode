@@ -1,0 +1,2974 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T07:06:40.114Z",
+  "environment": {
+    "platform": "win32",
+    "arch": "x64",
+    "node": "v24.13.0",
+    "cpuCount": 16,
+    "totalMemoryMb": 16069.34,
+    "packagedExe": "E:\\closecode\\release\\win-unpacked\\Close Code.exe",
+    "electronFromPackage": "35.7.5 (expected packaged runtime)"
+  },
+  "configuration": {
+    "startupRuns": 3,
+    "terminalLines": 20000,
+    "largeFileBytes": 8388608,
+    "typingCharacters": 120,
+    "scales": [
+      100,
+      1000,
+      10000
+    ],
+    "gitTrackedFiles": 2000,
+    "profiler": "CDP Profiler + Performance.getMetrics + Runtime/Memory/SystemInfo snapshots",
+    "bottleneckProbe": "scripts/phase16-search-probe.cjs (isolates I/O vs CPU for workspace search)",
+    "readConcurrency": 32
+  },
+  "startup": {
+    "runs": [
+      {
+        "index": 1,
+        "targetMs": 959.78,
+        "readyMs": 959.79,
+        "navigation": {
+          "domContentLoaded": 466.0999999642372,
+          "loadEvent": 466.5,
+          "responseEnd": 23.299999952316284,
+          "domInteractive": 195.89999997615814,
+          "transferSize": 967,
+          "encodedBodySize": 667,
+          "decodedBodySize": 667
+        },
+        "memory": {
+          "jsHeapUsedMb": 17.19,
+          "jsHeapTotalMb": 31.2,
+          "domNodes": 435,
+          "documents": 3,
+          "jsEventListeners": 267,
+          "metrics": {
+            "taskDurationMs": 465.06,
+            "scriptDurationMs": 213.76,
+            "layoutDurationMs": 94.74,
+            "recalcStyleDurationMs": 7.9,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 8,
+            "recalcStyleCount": 9,
+            "nodesMetric": 435
+          },
+          "processInfo": []
+        }
+      },
+      {
+        "index": 2,
+        "targetMs": 984.52,
+        "readyMs": 984.56,
+        "navigation": {
+          "domContentLoaded": 423.69999998807907,
+          "loadEvent": 424.10000002384186,
+          "responseEnd": 24.80000001192093,
+          "domInteractive": 182.5,
+          "transferSize": 967,
+          "encodedBodySize": 667,
+          "decodedBodySize": 667
+        },
+        "memory": {
+          "jsHeapUsedMb": 17.4,
+          "jsHeapTotalMb": 31.7,
+          "domNodes": 441,
+          "documents": 3,
+          "jsEventListeners": 281,
+          "metrics": {
+            "taskDurationMs": 159.66,
+            "scriptDurationMs": 86.35,
+            "layoutDurationMs": 62.22,
+            "recalcStyleDurationMs": 6.09,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 8,
+            "recalcStyleCount": 9,
+            "nodesMetric": 436
+          },
+          "processInfo": []
+        }
+      },
+      {
+        "index": 3,
+        "targetMs": 951.77,
+        "readyMs": 951.77,
+        "navigation": {
+          "domContentLoaded": 398.80000001192093,
+          "loadEvent": 399.10000002384186,
+          "responseEnd": 22,
+          "domInteractive": 185.4000000357628,
+          "transferSize": 967,
+          "encodedBodySize": 667,
+          "decodedBodySize": 667
+        },
+        "memory": {
+          "jsHeapUsedMb": 17.34,
+          "jsHeapTotalMb": 31.2,
+          "domNodes": 436,
+          "documents": 3,
+          "jsEventListeners": 271,
+          "metrics": {
+            "taskDurationMs": 426.68,
+            "scriptDurationMs": 186.25,
+            "layoutDurationMs": 99.04,
+            "recalcStyleDurationMs": 6.88,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 8,
+            "recalcStyleCount": 9,
+            "nodesMetric": 436
+          },
+          "processInfo": []
+        }
+      }
+    ],
+    "summary": {
+      "count": 3,
+      "targetMs": {
+        "median": 959.78,
+        "min": 951.77,
+        "max": 984.52
+      },
+      "readyMs": {
+        "median": 959.79,
+        "min": 951.77,
+        "max": 984.56
+      }
+    },
+    "firstInteraction": {
+      "label": "first-interaction",
+      "wallMs": 122.15,
+      "result": {
+        "open": true,
+        "wallMs": 4.04,
+        "via": "toggle-sidebar"
+      },
+      "error": null,
+      "cpu": {
+        "taskDurationMs": 124.69,
+        "scriptDurationMs": 48.73,
+        "layoutDurationMs": 2.11,
+        "recalcStyleDurationMs": 3.04,
+        "v8CompileDurationMs": 0,
+        "taskUtilizationPct": 102.08
+      },
+      "cpuProfile": {
+        "durationMs": 176.36,
+        "sampleCount": 74,
+        "totalSampledMs": 175.87,
+        "topFunctions": [
+          {
+            "functionName": "(idle)",
+            "url": "",
+            "line": 0,
+            "selfMs": 87.3,
+            "selfPct": 49.64
+          },
+          {
+            "functionName": "(program)",
+            "url": "",
+            "line": 0,
+            "selfMs": 59.36,
+            "selfPct": 33.75
+          },
+          {
+            "functionName": "re",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 19,
+            "selfMs": 1.85,
+            "selfPct": 1.05
+          },
+          {
+            "functionName": "bu",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 10,
+            "selfMs": 1.72,
+            "selfPct": 0.98
+          },
+          {
+            "functionName": "setPosition",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 20,
+            "selfMs": 1.71,
+            "selfPct": 0.97
+          },
+          {
+            "functionName": "getBoundingClientRect",
+            "url": "",
+            "line": 0,
+            "selfMs": 1.71,
+            "selfPct": 0.97
+          },
+          {
+            "functionName": "style",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 154,
+            "selfMs": 1.69,
+            "selfPct": 0.96
+          },
+          {
+            "functionName": "append",
+            "url": "",
+            "line": 0,
+            "selfMs": 1.67,
+            "selfPct": 0.95
+          }
+        ]
+      },
+      "memory": {
+        "before": {
+          "jsHeapUsedMb": 17.2,
+          "jsHeapTotalMb": 31.2,
+          "domNodes": 435,
+          "documents": 3,
+          "jsEventListeners": 267,
+          "metrics": {
+            "taskDurationMs": 465.62,
+            "scriptDurationMs": 213.76,
+            "layoutDurationMs": 94.74,
+            "recalcStyleDurationMs": 7.9,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 8,
+            "recalcStyleCount": 9,
+            "nodesMetric": 435
+          },
+          "processInfo": []
+        },
+        "after": {
+          "jsHeapUsedMb": 18.91,
+          "jsHeapTotalMb": 32.2,
+          "domNodes": 513,
+          "documents": 3,
+          "jsEventListeners": 418,
+          "metrics": {
+            "taskDurationMs": 590.31,
+            "scriptDurationMs": 262.49,
+            "layoutDurationMs": 96.85,
+            "recalcStyleDurationMs": 10.94,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 17,
+            "recalcStyleCount": 18,
+            "nodesMetric": 513
+          },
+          "processInfo": []
+        },
+        "heapDeltaMb": 1.71,
+        "domNodeDelta": 78
+      }
+    }
+  },
+  "fixtureWarmup": {
+    "totalMs": 5151.4,
+    "totalMb": 10.68,
+    "totalFiles": 13131,
+    "byRoot": [
+      {
+        "root": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\scale-100",
+        "files": 101,
+        "mb": 0,
+        "ms": 48.6
+      },
+      {
+        "root": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\scale-1000",
+        "files": 1001,
+        "mb": 0.04,
+        "ms": 434.67
+      },
+      {
+        "root": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\scale-10000",
+        "files": 10001,
+        "mb": 0.47,
+        "ms": 3787.03
+      },
+      {
+        "root": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\large-file",
+        "files": 1,
+        "mb": 8.01,
+        "ms": 4.39
+      },
+      {
+        "root": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\typing",
+        "files": 1,
+        "mb": 0.01,
+        "ms": 0.24
+      },
+      {
+        "root": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\terminal",
+        "files": 1,
+        "mb": 2.09,
+        "ms": 0.55
+      },
+      {
+        "root": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\git-large",
+        "files": 2025,
+        "mb": 0.06,
+        "ms": 875.92
+      }
+    ]
+  },
+  "scale": [
+    {
+      "count": 100,
+      "open": {
+        "label": "workspace-open-100",
+        "wallMs": 267.71,
+        "result": {
+          "apiMs": 42,
+          "responseOk": true,
+          "root": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\scale-100",
+          "rootChildren": 2
+        },
+        "error": null,
+        "cpu": {
+          "taskDurationMs": 80.62,
+          "scriptDurationMs": 13.17,
+          "layoutDurationMs": 10.92,
+          "recalcStyleDurationMs": 0.97,
+          "v8CompileDurationMs": 0,
+          "taskUtilizationPct": 30.12
+        },
+        "cpuProfile": {
+          "durationMs": 307.17,
+          "sampleCount": 167,
+          "totalSampledMs": 306.94,
+          "topFunctions": [
+            {
+              "functionName": "(idle)",
+              "url": "",
+              "line": 0,
+              "selfMs": 241.26,
+              "selfPct": 78.6
+            },
+            {
+              "functionName": "(program)",
+              "url": "",
+              "line": 0,
+              "selfMs": 54.07,
+              "selfPct": 17.62
+            },
+            {
+              "functionName": "update",
+              "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+              "line": 703,
+              "selfMs": 1.84,
+              "selfPct": 0.6
+            },
+            {
+              "functionName": "_update",
+              "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+              "line": 738,
+              "selfMs": 1.71,
+              "selfPct": 0.56
+            },
+            {
+              "functionName": "_fromFoldingRegions",
+              "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+              "line": 759,
+              "selfMs": 1.7,
+              "selfPct": 0.55
+            },
+            {
+              "functionName": "setAttribute",
+              "url": "",
+              "line": 0,
+              "selfMs": 1.66,
+              "selfPct": 0.54
+            },
+            {
+              "functionName": "(garbage collector)",
+              "url": "",
+              "line": 0,
+              "selfMs": 1.62,
+              "selfPct": 0.53
+            },
+            {
+              "functionName": "oUe",
+              "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+              "line": 843,
+              "selfMs": 1.61,
+              "selfPct": 0.52
+            }
+          ]
+        },
+        "memory": {
+          "before": {
+            "jsHeapUsedMb": 12.67,
+            "jsHeapTotalMb": 14.2,
+            "domNodes": 173,
+            "documents": 2,
+            "jsEventListeners": 242,
+            "metrics": {
+              "taskDurationMs": 456.82,
+              "scriptDurationMs": 190.64,
+              "layoutDurationMs": 99.01,
+              "recalcStyleDurationMs": 11.83,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 11,
+              "recalcStyleCount": 12,
+              "nodesMetric": 173
+            },
+            "processInfo": []
+          },
+          "after": {
+            "jsHeapUsedMb": 13.22,
+            "jsHeapTotalMb": 18.45,
+            "domNodes": 262,
+            "documents": 2,
+            "jsEventListeners": 422,
+            "metrics": {
+              "taskDurationMs": 537.44,
+              "scriptDurationMs": 203.81,
+              "layoutDurationMs": 109.93,
+              "recalcStyleDurationMs": 12.8,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 13,
+              "recalcStyleCount": 14,
+              "nodesMetric": 262
+            },
+            "processInfo": []
+          },
+          "heapDeltaMb": 0.55,
+          "domNodeDelta": 89
+        }
+      },
+      "list": {
+        "label": "explorer-list-100",
+        "wallMs": 23.5,
+        "result": {
+          "count": 100,
+          "ms": 21.3
+        },
+        "error": null,
+        "cpu": {
+          "taskDurationMs": 51.54,
+          "scriptDurationMs": 0.79,
+          "layoutDurationMs": 0,
+          "recalcStyleDurationMs": 0,
+          "v8CompileDurationMs": 0,
+          "taskUtilizationPct": 219.29
+        },
+        "cpuProfile": {
+          "durationMs": 66.09,
+          "sampleCount": 17,
+          "totalSampledMs": 65.79,
+          "topFunctions": [
+            {
+              "functionName": "(program)",
+              "url": "",
+              "line": 0,
+              "selfMs": 43.17,
+              "selfPct": 65.62
+            },
+            {
+              "functionName": "(idle)",
+              "url": "",
+              "line": 0,
+              "selfMs": 22.62,
+              "selfPct": 34.38
+            }
+          ]
+        },
+        "memory": {
+          "before": {
+            "jsHeapUsedMb": 13.22,
+            "jsHeapTotalMb": 18.45,
+            "domNodes": 262,
+            "documents": 2,
+            "jsEventListeners": 422,
+            "metrics": {
+              "taskDurationMs": 537.91,
+              "scriptDurationMs": 203.81,
+              "layoutDurationMs": 109.93,
+              "recalcStyleDurationMs": 12.8,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 13,
+              "recalcStyleCount": 14,
+              "nodesMetric": 262
+            },
+            "processInfo": []
+          },
+          "after": {
+            "jsHeapUsedMb": 13.31,
+            "jsHeapTotalMb": 18.45,
+            "domNodes": 262,
+            "documents": 2,
+            "jsEventListeners": 430,
+            "metrics": {
+              "taskDurationMs": 589.45,
+              "scriptDurationMs": 204.6,
+              "layoutDurationMs": 109.93,
+              "recalcStyleDurationMs": 12.8,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 13,
+              "recalcStyleCount": 14,
+              "nodesMetric": 262
+            },
+            "processInfo": []
+          },
+          "heapDeltaMb": 0.09,
+          "domNodeDelta": 0
+        }
+      },
+      "search": {
+        "label": "workspace-search-100",
+        "wallMs": 204.28,
+        "result": {
+          "results": 101,
+          "totalFiles": 101,
+          "searchedFiles": 101,
+          "truncated": false,
+          "ms": 202.7
+        },
+        "error": null,
+        "cpu": {
+          "taskDurationMs": 64.52,
+          "scriptDurationMs": 0,
+          "layoutDurationMs": 0,
+          "recalcStyleDurationMs": 0,
+          "v8CompileDurationMs": 0,
+          "taskUtilizationPct": 31.58
+        },
+        "cpuProfile": {
+          "durationMs": 262.63,
+          "sampleCount": 131,
+          "totalSampledMs": 262.43,
+          "topFunctions": [
+            {
+              "functionName": "(idle)",
+              "url": "",
+              "line": 0,
+              "selfMs": 205.29,
+              "selfPct": 78.22
+            },
+            {
+              "functionName": "(program)",
+              "url": "",
+              "line": 0,
+              "selfMs": 57.15,
+              "selfPct": 21.78
+            }
+          ]
+        },
+        "memory": {
+          "before": {
+            "jsHeapUsedMb": 13.01,
+            "jsHeapTotalMb": 15.2,
+            "domNodes": 255,
+            "documents": 2,
+            "jsEventListeners": 353,
+            "metrics": {
+              "taskDurationMs": 615.17,
+              "scriptDurationMs": 204.6,
+              "layoutDurationMs": 109.93,
+              "recalcStyleDurationMs": 12.8,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 13,
+              "recalcStyleCount": 14,
+              "nodesMetric": 255
+            },
+            "processInfo": []
+          },
+          "after": {
+            "jsHeapUsedMb": 13.11,
+            "jsHeapTotalMb": 15.45,
+            "domNodes": 255,
+            "documents": 2,
+            "jsEventListeners": 353,
+            "metrics": {
+              "taskDurationMs": 679.69,
+              "scriptDurationMs": 204.6,
+              "layoutDurationMs": 109.93,
+              "recalcStyleDurationMs": 12.8,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 13,
+              "recalcStyleCount": 14,
+              "nodesMetric": 255
+            },
+            "processInfo": []
+          },
+          "heapDeltaMb": 0.1,
+          "domNodeDelta": 0
+        }
+      },
+      "searchRepeat": {
+        "label": "workspace-search-repeat-100",
+        "wallMs": 2.26,
+        "result": {
+          "results": 101,
+          "cache": "hit",
+          "ms": 1.2
+        },
+        "error": null,
+        "cpu": {
+          "taskDurationMs": 41.78,
+          "scriptDurationMs": 0,
+          "layoutDurationMs": 0,
+          "recalcStyleDurationMs": 0,
+          "v8CompileDurationMs": 0,
+          "taskUtilizationPct": 1849.49
+        },
+        "cpuProfile": {
+          "durationMs": 39.07,
+          "sampleCount": 4,
+          "totalSampledMs": 38.89,
+          "topFunctions": [
+            {
+              "functionName": "(program)",
+              "url": "",
+              "line": 0,
+              "selfMs": 37.55,
+              "selfPct": 96.56
+            },
+            {
+              "functionName": "(idle)",
+              "url": "",
+              "line": 0,
+              "selfMs": 1.34,
+              "selfPct": 3.44
+            }
+          ]
+        },
+        "memory": {
+          "before": {
+            "jsHeapUsedMb": 13.11,
+            "jsHeapTotalMb": 15.45,
+            "domNodes": 255,
+            "documents": 2,
+            "jsEventListeners": 353,
+            "metrics": {
+              "taskDurationMs": 680.09,
+              "scriptDurationMs": 204.6,
+              "layoutDurationMs": 109.93,
+              "recalcStyleDurationMs": 12.8,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 13,
+              "recalcStyleCount": 14,
+              "nodesMetric": 255
+            },
+            "processInfo": []
+          },
+          "after": {
+            "jsHeapUsedMb": 13.19,
+            "jsHeapTotalMb": 15.45,
+            "domNodes": 255,
+            "documents": 2,
+            "jsEventListeners": 353,
+            "metrics": {
+              "taskDurationMs": 721.87,
+              "scriptDurationMs": 204.6,
+              "layoutDurationMs": 109.93,
+              "recalcStyleDurationMs": 12.8,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 13,
+              "recalcStyleCount": 14,
+              "nodesMetric": 255
+            },
+            "processInfo": []
+          },
+          "heapDeltaMb": 0.08,
+          "domNodeDelta": 0
+        }
+      },
+      "summary": {
+        "wallMs": {
+          "median": 204.28,
+          "p95": 267.71
+        },
+        "heapDeltaMb": {
+          "median": 0.1,
+          "max": 0.55
+        },
+        "errors": []
+      }
+    },
+    {
+      "count": 1000,
+      "open": {
+        "label": "workspace-open-1000",
+        "wallMs": 265.36,
+        "result": {
+          "apiMs": 56.8,
+          "responseOk": true,
+          "root": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\scale-1000",
+          "rootChildren": 2
+        },
+        "error": null,
+        "cpu": {
+          "taskDurationMs": 59.95,
+          "scriptDurationMs": 3.39,
+          "layoutDurationMs": 0.52,
+          "recalcStyleDurationMs": 0.33,
+          "v8CompileDurationMs": 0,
+          "taskUtilizationPct": 22.59
+        },
+        "cpuProfile": {
+          "durationMs": 311.88,
+          "sampleCount": 168,
+          "totalSampledMs": 311.58,
+          "topFunctions": [
+            {
+              "functionName": "(idle)",
+              "url": "",
+              "line": 0,
+              "selfMs": 254.52,
+              "selfPct": 81.69
+            },
+            {
+              "functionName": "(program)",
+              "url": "",
+              "line": 0,
+              "selfMs": 49.28,
+              "selfPct": 15.82
+            },
+            {
+              "functionName": "i",
+              "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+              "line": 809,
+              "selfMs": 1.72,
+              "selfPct": 0.55
+            },
+            {
+              "functionName": "(anonymous)",
+              "url": "",
+              "line": 0,
+              "selfMs": 1.61,
+              "selfPct": 0.52
+            },
+            {
+              "functionName": "$o",
+              "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+              "line": 809,
+              "selfMs": 1.58,
+              "selfPct": 0.51
+            },
+            {
+              "functionName": "i",
+              "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+              "line": 809,
+              "selfMs": 1.57,
+              "selfPct": 0.5
+            },
+            {
+              "functionName": "Xfe",
+              "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+              "line": 809,
+              "selfMs": 1.3,
+              "selfPct": 0.42
+            }
+          ]
+        },
+        "memory": {
+          "before": {
+            "jsHeapUsedMb": 13.06,
+            "jsHeapTotalMb": 15.2,
+            "domNodes": 230,
+            "documents": 2,
+            "jsEventListeners": 347,
+            "metrics": {
+              "taskDurationMs": 749.81,
+              "scriptDurationMs": 206.3,
+              "layoutDurationMs": 111.04,
+              "recalcStyleDurationMs": 13.15,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 14,
+              "recalcStyleCount": 15,
+              "nodesMetric": 230
+            },
+            "processInfo": []
+          },
+          "after": {
+            "jsHeapUsedMb": 13.42,
+            "jsHeapTotalMb": 15.95,
+            "domNodes": 271,
+            "documents": 2,
+            "jsEventListeners": 416,
+            "metrics": {
+              "taskDurationMs": 809.76,
+              "scriptDurationMs": 209.69,
+              "layoutDurationMs": 111.56,
+              "recalcStyleDurationMs": 13.48,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 15,
+              "recalcStyleCount": 16,
+              "nodesMetric": 271
+            },
+            "processInfo": []
+          },
+          "heapDeltaMb": 0.36,
+          "domNodeDelta": 41
+        }
+      },
+      "list": {
+        "label": "explorer-list-1000",
+        "wallMs": 21.44,
+        "result": {
+          "count": 1000,
+          "ms": 18.5
+        },
+        "error": null,
+        "cpu": {
+          "taskDurationMs": 50.51,
+          "scriptDurationMs": 0.36,
+          "layoutDurationMs": 0,
+          "recalcStyleDurationMs": 0,
+          "v8CompileDurationMs": 0,
+          "taskUtilizationPct": 235.55
+        },
+        "cpuProfile": {
+          "durationMs": 64.28,
+          "sampleCount": 15,
+          "totalSampledMs": 64.03,
+          "topFunctions": [
+            {
+              "functionName": "(program)",
+              "url": "",
+              "line": 0,
+              "selfMs": 42.83,
+              "selfPct": 66.89
+            },
+            {
+              "functionName": "(idle)",
+              "url": "",
+              "line": 0,
+              "selfMs": 19.45,
+              "selfPct": 30.38
+            },
+            {
+              "functionName": "(anonymous)",
+              "url": "",
+              "line": 0,
+              "selfMs": 1.74,
+              "selfPct": 2.72
+            }
+          ]
+        },
+        "memory": {
+          "before": {
+            "jsHeapUsedMb": 13.42,
+            "jsHeapTotalMb": 15.95,
+            "domNodes": 271,
+            "documents": 2,
+            "jsEventListeners": 416,
+            "metrics": {
+              "taskDurationMs": 810.23,
+              "scriptDurationMs": 209.69,
+              "layoutDurationMs": 111.56,
+              "recalcStyleDurationMs": 13.48,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 15,
+              "recalcStyleCount": 16,
+              "nodesMetric": 271
+            },
+            "processInfo": []
+          },
+          "after": {
+            "jsHeapUsedMb": 13.87,
+            "jsHeapTotalMb": 15.95,
+            "domNodes": 271,
+            "documents": 2,
+            "jsEventListeners": 424,
+            "metrics": {
+              "taskDurationMs": 860.74,
+              "scriptDurationMs": 210.05,
+              "layoutDurationMs": 111.56,
+              "recalcStyleDurationMs": 13.48,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 15,
+              "recalcStyleCount": 16,
+              "nodesMetric": 271
+            },
+            "processInfo": []
+          },
+          "heapDeltaMb": 0.45,
+          "domNodeDelta": 0
+        }
+      },
+      "search": {
+        "label": "workspace-search-1000",
+        "wallMs": 1559.51,
+        "result": {
+          "results": 1001,
+          "totalFiles": 1001,
+          "searchedFiles": 1001,
+          "truncated": false,
+          "ms": 1558
+        },
+        "error": null,
+        "cpu": {
+          "taskDurationMs": 57.74,
+          "scriptDurationMs": 0.08,
+          "layoutDurationMs": 0,
+          "recalcStyleDurationMs": 0,
+          "v8CompileDurationMs": 0,
+          "taskUtilizationPct": 3.7
+        },
+        "cpuProfile": {
+          "durationMs": 1608.21,
+          "sampleCount": 982,
+          "totalSampledMs": 1608,
+          "topFunctions": [
+            {
+              "functionName": "(idle)",
+              "url": "",
+              "line": 0,
+              "selfMs": 1554.28,
+              "selfPct": 96.66
+            },
+            {
+              "functionName": "(program)",
+              "url": "",
+              "line": 0,
+              "selfMs": 53.73,
+              "selfPct": 3.34
+            }
+          ]
+        },
+        "memory": {
+          "before": {
+            "jsHeapUsedMb": 13.3,
+            "jsHeapTotalMb": 15.45,
+            "domNodes": 255,
+            "documents": 2,
+            "jsEventListeners": 353,
+            "metrics": {
+              "taskDurationMs": 887.54,
+              "scriptDurationMs": 210.05,
+              "layoutDurationMs": 111.56,
+              "recalcStyleDurationMs": 13.48,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 15,
+              "recalcStyleCount": 16,
+              "nodesMetric": 255
+            },
+            "processInfo": []
+          },
+          "after": {
+            "jsHeapUsedMb": 13.98,
+            "jsHeapTotalMb": 15.45,
+            "domNodes": 255,
+            "documents": 2,
+            "jsEventListeners": 353,
+            "metrics": {
+              "taskDurationMs": 945.28,
+              "scriptDurationMs": 210.13,
+              "layoutDurationMs": 111.56,
+              "recalcStyleDurationMs": 13.48,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 15,
+              "recalcStyleCount": 16,
+              "nodesMetric": 255
+            },
+            "processInfo": []
+          },
+          "heapDeltaMb": 0.68,
+          "domNodeDelta": 0
+        }
+      },
+      "searchRepeat": {
+        "label": "workspace-search-repeat-1000",
+        "wallMs": 7.08,
+        "result": {
+          "results": 1001,
+          "cache": "hit",
+          "ms": 5.9
+        },
+        "error": null,
+        "cpu": {
+          "taskDurationMs": 47.7,
+          "scriptDurationMs": 0.05,
+          "layoutDurationMs": 0,
+          "recalcStyleDurationMs": 0,
+          "v8CompileDurationMs": 0,
+          "taskUtilizationPct": 673.35
+        },
+        "cpuProfile": {
+          "durationMs": 46.13,
+          "sampleCount": 7,
+          "totalSampledMs": 45.89,
+          "topFunctions": [
+            {
+              "functionName": "(program)",
+              "url": "",
+              "line": 0,
+              "selfMs": 40.85,
+              "selfPct": 89
+            },
+            {
+              "functionName": "(idle)",
+              "url": "",
+              "line": 0,
+              "selfMs": 3.39,
+              "selfPct": 7.39
+            },
+            {
+              "functionName": "(garbage collector)",
+              "url": "",
+              "line": 0,
+              "selfMs": 1.65,
+              "selfPct": 3.6
+            }
+          ]
+        },
+        "memory": {
+          "before": {
+            "jsHeapUsedMb": 13.98,
+            "jsHeapTotalMb": 15.45,
+            "domNodes": 255,
+            "documents": 2,
+            "jsEventListeners": 353,
+            "metrics": {
+              "taskDurationMs": 945.58,
+              "scriptDurationMs": 210.13,
+              "layoutDurationMs": 111.56,
+              "recalcStyleDurationMs": 13.48,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 15,
+              "recalcStyleCount": 16,
+              "nodesMetric": 255
+            },
+            "processInfo": []
+          },
+          "after": {
+            "jsHeapUsedMb": 13.64,
+            "jsHeapTotalMb": 16.45,
+            "domNodes": 255,
+            "documents": 2,
+            "jsEventListeners": 353,
+            "metrics": {
+              "taskDurationMs": 993.28,
+              "scriptDurationMs": 210.18,
+              "layoutDurationMs": 111.56,
+              "recalcStyleDurationMs": 13.48,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 15,
+              "recalcStyleCount": 16,
+              "nodesMetric": 255
+            },
+            "processInfo": []
+          },
+          "heapDeltaMb": -0.34,
+          "domNodeDelta": 0
+        }
+      },
+      "summary": {
+        "wallMs": {
+          "median": 265.36,
+          "p95": 1559.51
+        },
+        "heapDeltaMb": {
+          "median": 0.45,
+          "max": 0.68
+        },
+        "errors": []
+      }
+    },
+    {
+      "count": 10000,
+      "open": {
+        "label": "workspace-open-10000",
+        "wallMs": 298.13,
+        "result": {
+          "apiMs": 62.4,
+          "responseOk": true,
+          "root": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\scale-10000",
+          "rootChildren": 2
+        },
+        "error": null,
+        "cpu": {
+          "taskDurationMs": 64.78,
+          "scriptDurationMs": 3.16,
+          "layoutDurationMs": 0.47,
+          "recalcStyleDurationMs": 0.32,
+          "v8CompileDurationMs": 0,
+          "taskUtilizationPct": 21.73
+        },
+        "cpuProfile": {
+          "durationMs": 345.33,
+          "sampleCount": 182,
+          "totalSampledMs": 344.96,
+          "topFunctions": [
+            {
+              "functionName": "(idle)",
+              "url": "",
+              "line": 0,
+              "selfMs": 291.01,
+              "selfPct": 84.36
+            },
+            {
+              "functionName": "(program)",
+              "url": "",
+              "line": 0,
+              "selfMs": 49.54,
+              "selfPct": 14.36
+            },
+            {
+              "functionName": "yfe",
+              "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+              "line": 808,
+              "selfMs": 1.65,
+              "selfPct": 0.48
+            },
+            {
+              "functionName": "due",
+              "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+              "line": 808,
+              "selfMs": 1.6,
+              "selfPct": 0.46
+            },
+            {
+              "functionName": "setAttribute",
+              "url": "",
+              "line": 0,
+              "selfMs": 1.15,
+              "selfPct": 0.33
+            }
+          ]
+        },
+        "memory": {
+          "before": {
+            "jsHeapUsedMb": 13.13,
+            "jsHeapTotalMb": 15.2,
+            "domNodes": 238,
+            "documents": 2,
+            "jsEventListeners": 349,
+            "metrics": {
+              "taskDurationMs": 1025.46,
+              "scriptDurationMs": 211.71,
+              "layoutDurationMs": 111.94,
+              "recalcStyleDurationMs": 13.73,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 16,
+              "recalcStyleCount": 17,
+              "nodesMetric": 238
+            },
+            "processInfo": []
+          },
+          "after": {
+            "jsHeapUsedMb": 13.46,
+            "jsHeapTotalMb": 15.95,
+            "domNodes": 279,
+            "documents": 2,
+            "jsEventListeners": 418,
+            "metrics": {
+              "taskDurationMs": 1090.24,
+              "scriptDurationMs": 214.87,
+              "layoutDurationMs": 112.41,
+              "recalcStyleDurationMs": 14.05,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 17,
+              "recalcStyleCount": 18,
+              "nodesMetric": 279
+            },
+            "processInfo": []
+          },
+          "heapDeltaMb": 0.33,
+          "domNodeDelta": 41
+        }
+      },
+      "list": {
+        "label": "explorer-list-10000",
+        "wallMs": 91.32,
+        "result": {
+          "count": 10000,
+          "ms": 88.2
+        },
+        "error": null,
+        "cpu": {
+          "taskDurationMs": 93.72,
+          "scriptDurationMs": 0.45,
+          "layoutDurationMs": 0,
+          "recalcStyleDurationMs": 0,
+          "v8CompileDurationMs": 0,
+          "taskUtilizationPct": 102.63
+        },
+        "cpuProfile": {
+          "durationMs": 148.46,
+          "sampleCount": 59,
+          "totalSampledMs": 148.06,
+          "topFunctions": [
+            {
+              "functionName": "(program)",
+              "url": "",
+              "line": 0,
+              "selfMs": 69.18,
+              "selfPct": 46.72
+            },
+            {
+              "functionName": "(idle)",
+              "url": "",
+              "line": 0,
+              "selfMs": 62.08,
+              "selfPct": 41.93
+            },
+            {
+              "functionName": "(anonymous)",
+              "url": "",
+              "line": 0,
+              "selfMs": 13.67,
+              "selfPct": 9.23
+            },
+            {
+              "functionName": "(garbage collector)",
+              "url": "",
+              "line": 0,
+              "selfMs": 3.14,
+              "selfPct": 2.12
+            }
+          ]
+        },
+        "memory": {
+          "before": {
+            "jsHeapUsedMb": 13.46,
+            "jsHeapTotalMb": 15.95,
+            "domNodes": 279,
+            "documents": 2,
+            "jsEventListeners": 418,
+            "metrics": {
+              "taskDurationMs": 1090.95,
+              "scriptDurationMs": 214.87,
+              "layoutDurationMs": 112.41,
+              "recalcStyleDurationMs": 14.05,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 17,
+              "recalcStyleCount": 18,
+              "nodesMetric": 279
+            },
+            "processInfo": []
+          },
+          "after": {
+            "jsHeapUsedMb": 16.33,
+            "jsHeapTotalMb": 24.45,
+            "domNodes": 279,
+            "documents": 2,
+            "jsEventListeners": 426,
+            "metrics": {
+              "taskDurationMs": 1184.67,
+              "scriptDurationMs": 215.32,
+              "layoutDurationMs": 112.41,
+              "recalcStyleDurationMs": 14.05,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 17,
+              "recalcStyleCount": 18,
+              "nodesMetric": 279
+            },
+            "processInfo": []
+          },
+          "heapDeltaMb": 2.87,
+          "domNodeDelta": 0
+        }
+      },
+      "search": {
+        "label": "workspace-search-10000",
+        "wallMs": 7504.47,
+        "result": {
+          "results": 5000,
+          "totalFiles": 10001,
+          "searchedFiles": 5000,
+          "truncated": true,
+          "ms": 7503
+        },
+        "error": null,
+        "cpu": {
+          "taskDurationMs": 73.31,
+          "scriptDurationMs": 0.04,
+          "layoutDurationMs": 0,
+          "recalcStyleDurationMs": 0,
+          "v8CompileDurationMs": 0,
+          "taskUtilizationPct": 0.98
+        },
+        "cpuProfile": {
+          "durationMs": 7551,
+          "sampleCount": 4731,
+          "totalSampledMs": 7550.79,
+          "topFunctions": [
+            {
+              "functionName": "(idle)",
+              "url": "",
+              "line": 0,
+              "selfMs": 7481.36,
+              "selfPct": 99.08
+            },
+            {
+              "functionName": "(program)",
+              "url": "",
+              "line": 0,
+              "selfMs": 61.74,
+              "selfPct": 0.82
+            },
+            {
+              "functionName": "(anonymous)",
+              "url": "",
+              "line": 0,
+              "selfMs": 4.59,
+              "selfPct": 0.06
+            },
+            {
+              "functionName": "(garbage collector)",
+              "url": "",
+              "line": 0,
+              "selfMs": 3.1,
+              "selfPct": 0.04
+            }
+          ]
+        },
+        "memory": {
+          "before": {
+            "jsHeapUsedMb": 14.67,
+            "jsHeapTotalMb": 16.7,
+            "domNodes": 255,
+            "documents": 2,
+            "jsEventListeners": 353,
+            "metrics": {
+              "taskDurationMs": 1213.6,
+              "scriptDurationMs": 215.32,
+              "layoutDurationMs": 112.41,
+              "recalcStyleDurationMs": 14.05,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 17,
+              "recalcStyleCount": 18,
+              "nodesMetric": 255
+            },
+            "processInfo": []
+          },
+          "after": {
+            "jsHeapUsedMb": 16.67,
+            "jsHeapTotalMb": 20.95,
+            "domNodes": 255,
+            "documents": 2,
+            "jsEventListeners": 353,
+            "metrics": {
+              "taskDurationMs": 1286.91,
+              "scriptDurationMs": 215.36,
+              "layoutDurationMs": 112.41,
+              "recalcStyleDurationMs": 14.05,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 17,
+              "recalcStyleCount": 18,
+              "nodesMetric": 255
+            },
+            "processInfo": []
+          },
+          "heapDeltaMb": 2,
+          "domNodeDelta": 0
+        }
+      },
+      "searchRepeat": {
+        "label": "workspace-search-repeat-10000",
+        "wallMs": 35.99,
+        "result": {
+          "results": 5000,
+          "cache": "hit",
+          "ms": 34.4
+        },
+        "error": null,
+        "cpu": {
+          "taskDurationMs": 82.24,
+          "scriptDurationMs": 0,
+          "layoutDurationMs": 0,
+          "recalcStyleDurationMs": 0,
+          "v8CompileDurationMs": 0,
+          "taskUtilizationPct": 228.49
+        },
+        "cpuProfile": {
+          "durationMs": 78.53,
+          "sampleCount": 24,
+          "totalSampledMs": 78.23,
+          "topFunctions": [
+            {
+              "functionName": "(program)",
+              "url": "",
+              "line": 0,
+              "selfMs": 59.41,
+              "selfPct": 75.94
+            },
+            {
+              "functionName": "(anonymous)",
+              "url": "",
+              "line": 0,
+              "selfMs": 10.31,
+              "selfPct": 13.18
+            },
+            {
+              "functionName": "(idle)",
+              "url": "",
+              "line": 0,
+              "selfMs": 6.72,
+              "selfPct": 8.59
+            },
+            {
+              "functionName": "(garbage collector)",
+              "url": "",
+              "line": 0,
+              "selfMs": 1.79,
+              "selfPct": 2.28
+            }
+          ]
+        },
+        "memory": {
+          "before": {
+            "jsHeapUsedMb": 16.67,
+            "jsHeapTotalMb": 20.95,
+            "domNodes": 255,
+            "documents": 2,
+            "jsEventListeners": 353,
+            "metrics": {
+              "taskDurationMs": 1287.34,
+              "scriptDurationMs": 215.36,
+              "layoutDurationMs": 112.41,
+              "recalcStyleDurationMs": 14.05,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 17,
+              "recalcStyleCount": 18,
+              "nodesMetric": 255
+            },
+            "processInfo": []
+          },
+          "after": {
+            "jsHeapUsedMb": 19.85,
+            "jsHeapTotalMb": 25.95,
+            "domNodes": 255,
+            "documents": 2,
+            "jsEventListeners": 353,
+            "metrics": {
+              "taskDurationMs": 1369.58,
+              "scriptDurationMs": 215.36,
+              "layoutDurationMs": 112.41,
+              "recalcStyleDurationMs": 14.05,
+              "v8CompileDurationMs": 0,
+              "layoutCount": 17,
+              "recalcStyleCount": 18,
+              "nodesMetric": 255
+            },
+            "processInfo": []
+          },
+          "heapDeltaMb": 3.18,
+          "domNodeDelta": 0
+        }
+      },
+      "summary": {
+        "wallMs": {
+          "median": 298.13,
+          "p95": 7504.47
+        },
+        "heapDeltaMb": {
+          "median": 2,
+          "max": 2.87
+        },
+        "errors": []
+      }
+    }
+  ],
+  "searchCacheInvalidation": {
+    "label": "search-cache-invalidation",
+    "wallMs": 24.27,
+    "result": {
+      "before": 0,
+      "primed": "hit",
+      "writeError": null,
+      "afterHits": 100,
+      "afterCache": "miss",
+      "found": 1
+    },
+    "error": null,
+    "cpu": {
+      "taskDurationMs": 44.39,
+      "scriptDurationMs": 0,
+      "layoutDurationMs": 0,
+      "recalcStyleDurationMs": 0,
+      "v8CompileDurationMs": 0,
+      "taskUtilizationPct": 182.89
+    },
+    "cpuProfile": {
+      "durationMs": 63.35,
+      "sampleCount": 18,
+      "totalSampledMs": 63.13,
+      "topFunctions": [
+        {
+          "functionName": "(program)",
+          "url": "",
+          "line": 0,
+          "selfMs": 39.65,
+          "selfPct": 62.8
+        },
+        {
+          "functionName": "(idle)",
+          "url": "",
+          "line": 0,
+          "selfMs": 23.49,
+          "selfPct": 37.2
+        }
+      ]
+    },
+    "memory": {
+      "before": {
+        "jsHeapUsedMb": 14.87,
+        "jsHeapTotalMb": 17.2,
+        "domNodes": 255,
+        "documents": 2,
+        "jsEventListeners": 353,
+        "metrics": {
+          "taskDurationMs": 1408.47,
+          "scriptDurationMs": 219.4,
+          "layoutDurationMs": 114.37,
+          "recalcStyleDurationMs": 14.79,
+          "v8CompileDurationMs": 0,
+          "layoutCount": 18,
+          "recalcStyleCount": 19,
+          "nodesMetric": 255
+        },
+        "processInfo": []
+      },
+      "after": {
+        "jsHeapUsedMb": 15.06,
+        "jsHeapTotalMb": 17.2,
+        "domNodes": 255,
+        "documents": 2,
+        "jsEventListeners": 353,
+        "metrics": {
+          "taskDurationMs": 1452.86,
+          "scriptDurationMs": 219.4,
+          "layoutDurationMs": 114.37,
+          "recalcStyleDurationMs": 14.79,
+          "v8CompileDurationMs": 0,
+          "layoutCount": 18,
+          "recalcStyleCount": 19,
+          "nodesMetric": 255
+        },
+        "processInfo": []
+      },
+      "heapDeltaMb": 0.19,
+      "domNodeDelta": 0
+    }
+  },
+  "fileOpen": {
+    "read": {
+      "label": "file-read-raw",
+      "wallMs": 2.07,
+      "result": {
+        "ms": 0.9,
+        "ok": true,
+        "bytes": 28,
+        "size": 28
+      },
+      "error": null,
+      "cpu": {
+        "taskDurationMs": 45.75,
+        "scriptDurationMs": 0,
+        "layoutDurationMs": 0,
+        "recalcStyleDurationMs": 0,
+        "v8CompileDurationMs": 0,
+        "taskUtilizationPct": 2204.82
+      },
+      "cpuProfile": {
+        "durationMs": 43.55,
+        "sampleCount": 4,
+        "totalSampledMs": 43.38,
+        "topFunctions": [
+          {
+            "functionName": "(program)",
+            "url": "",
+            "line": 0,
+            "selfMs": 40.02,
+            "selfPct": 92.26
+          },
+          {
+            "functionName": "(idle)",
+            "url": "",
+            "line": 0,
+            "selfMs": 3.36,
+            "selfPct": 7.74
+          }
+        ]
+      },
+      "memory": {
+        "before": {
+          "jsHeapUsedMb": 13.23,
+          "jsHeapTotalMb": 15.45,
+          "domNodes": 255,
+          "documents": 2,
+          "jsEventListeners": 353,
+          "metrics": {
+            "taskDurationMs": 1477.9,
+            "scriptDurationMs": 222.86,
+            "layoutDurationMs": 116.12,
+            "recalcStyleDurationMs": 16.17,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 20,
+            "recalcStyleCount": 21,
+            "nodesMetric": 255
+          },
+          "processInfo": []
+        },
+        "after": {
+          "jsHeapUsedMb": 13.25,
+          "jsHeapTotalMb": 15.45,
+          "domNodes": 255,
+          "documents": 2,
+          "jsEventListeners": 353,
+          "metrics": {
+            "taskDurationMs": 1523.65,
+            "scriptDurationMs": 222.86,
+            "layoutDurationMs": 116.12,
+            "recalcStyleDurationMs": 16.17,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 20,
+            "recalcStyleCount": 21,
+            "nodesMetric": 255
+          },
+          "processInfo": []
+        },
+        "heapDeltaMb": 0.02,
+        "domNodeDelta": 0
+      }
+    },
+    "open": {
+      "label": "file-open",
+      "wallMs": 25.46,
+      "result": {
+        "apiAndRenderMs": 23.7,
+        "activePath": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\scale-100\\README.md",
+        "expectedPath": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\scale-100\\README.md",
+        "tabSize": 1,
+        "modelLength": 28,
+        "lineCount": 3,
+        "hasModel": true,
+        "hasEditor": true,
+        "warning": null,
+        "lastPollActivePath": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\scale-100\\README.md"
+      },
+      "error": null,
+      "cpu": {
+        "taskDurationMs": 73.97,
+        "scriptDurationMs": 18.69,
+        "layoutDurationMs": 2.88,
+        "recalcStyleDurationMs": 1.68,
+        "v8CompileDurationMs": 0,
+        "taskUtilizationPct": 290.53
+      },
+      "cpuProfile": {
+        "durationMs": 68.72,
+        "sampleCount": 23,
+        "totalSampledMs": 68.52,
+        "topFunctions": [
+          {
+            "functionName": "(program)",
+            "url": "",
+            "line": 0,
+            "selfMs": 41.56,
+            "selfPct": 60.66
+          },
+          {
+            "functionName": "_readClientRects",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 627,
+            "selfMs": 5.48,
+            "selfPct": 8
+          },
+          {
+            "functionName": "Si",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 17,
+            "selfMs": 2.04,
+            "selfPct": 2.97
+          },
+          {
+            "functionName": "VH",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 716,
+            "selfMs": 1.85,
+            "selfPct": 2.7
+          },
+          {
+            "functionName": "_renderWidget",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 661,
+            "selfMs": 1.77,
+            "selfPct": 2.59
+          },
+          {
+            "functionName": "xle",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 668,
+            "selfMs": 1.77,
+            "selfPct": 2.59
+          },
+          {
+            "functionName": "dispose",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 759,
+            "selfMs": 1.77,
+            "selfPct": 2.58
+          },
+          {
+            "functionName": "_emitModelTokensChangedEvent",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 583,
+            "selfMs": 1.77,
+            "selfPct": 2.58
+          }
+        ]
+      },
+      "memory": {
+        "before": {
+          "jsHeapUsedMb": 13.25,
+          "jsHeapTotalMb": 15.45,
+          "domNodes": 255,
+          "documents": 2,
+          "jsEventListeners": 353,
+          "metrics": {
+            "taskDurationMs": 1524,
+            "scriptDurationMs": 222.86,
+            "layoutDurationMs": 116.12,
+            "recalcStyleDurationMs": 16.17,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 20,
+            "recalcStyleCount": 21,
+            "nodesMetric": 255
+          },
+          "processInfo": []
+        },
+        "after": {
+          "jsHeapUsedMb": 14.28,
+          "jsHeapTotalMb": 15.95,
+          "domNodes": 328,
+          "documents": 2,
+          "jsEventListeners": 459,
+          "metrics": {
+            "taskDurationMs": 1597.97,
+            "scriptDurationMs": 241.55,
+            "layoutDurationMs": 119,
+            "recalcStyleDurationMs": 17.85,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 23,
+            "recalcStyleCount": 24,
+            "nodesMetric": 328
+          },
+          "processInfo": []
+        },
+        "heapDeltaMb": 1.03,
+        "domNodeDelta": 73
+      }
+    }
+  },
+  "tabSwitch": {
+    "files": [
+      "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\scale-100\\README.md",
+      "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\scale-100\\src\\file-00000.ts",
+      "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\scale-100\\src\\file-00001.ts"
+    ],
+    "opened": [
+      {
+        "file": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\scale-100\\README.md",
+        "ms": 26.1,
+        "ok": true
+      },
+      {
+        "file": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\scale-100\\src\\file-00000.ts",
+        "ms": 44.6,
+        "ok": true
+      },
+      {
+        "file": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\scale-100\\src\\file-00001.ts",
+        "ms": 26.4,
+        "ok": true
+      }
+    ],
+    "cold": {
+      "label": "tab-switch-cold",
+      "wallMs": 40.28,
+      "result": {
+        "target": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\scale-100\\src\\file-00000.ts",
+        "activePath": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\scale-100\\src\\file-00000.ts",
+        "ms": 27.6
+      },
+      "error": null,
+      "cpu": {
+        "taskDurationMs": 76.04,
+        "scriptDurationMs": 18.19,
+        "layoutDurationMs": 2.09,
+        "recalcStyleDurationMs": 4.15,
+        "v8CompileDurationMs": 0,
+        "taskUtilizationPct": 188.78
+      },
+      "cpuProfile": {
+        "durationMs": 83.9,
+        "sampleCount": 29,
+        "totalSampledMs": 83.6,
+        "topFunctions": [
+          {
+            "functionName": "(program)",
+            "url": "",
+            "line": 0,
+            "selfMs": 50.92,
+            "selfPct": 60.91
+          },
+          {
+            "functionName": "(idle)",
+            "url": "",
+            "line": 0,
+            "selfMs": 12.84,
+            "selfPct": 15.36
+          },
+          {
+            "functionName": "getClientRects",
+            "url": "",
+            "line": 0,
+            "selfMs": 3.06,
+            "selfPct": 3.66
+          },
+          {
+            "functionName": "$V",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 19,
+            "selfMs": 1.7,
+            "selfPct": 2.03
+          },
+          {
+            "functionName": "_renderWidget",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 661,
+            "selfMs": 1.69,
+            "selfPct": 2.02
+          },
+          {
+            "functionName": "getOffsetAt",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 567,
+            "selfMs": 1.64,
+            "selfPct": 1.96
+          },
+          {
+            "functionName": "setProperty",
+            "url": "",
+            "line": 0,
+            "selfMs": 1.63,
+            "selfPct": 1.95
+          },
+          {
+            "functionName": "_createBackgroundFillData",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 661,
+            "selfMs": 1.58,
+            "selfPct": 1.89
+          }
+        ]
+      },
+      "memory": {
+        "before": {
+          "jsHeapUsedMb": 14.81,
+          "jsHeapTotalMb": 16.95,
+          "domNodes": 300,
+          "documents": 2,
+          "jsEventListeners": 364,
+          "metrics": {
+            "taskDurationMs": 1712.28,
+            "scriptDurationMs": 280.17,
+            "layoutDurationMs": 127.34,
+            "recalcStyleDurationMs": 23.29,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 31,
+            "recalcStyleCount": 32,
+            "nodesMetric": 300
+          },
+          "processInfo": []
+        },
+        "after": {
+          "jsHeapUsedMb": 15.54,
+          "jsHeapTotalMb": 17.2,
+          "domNodes": 444,
+          "documents": 2,
+          "jsEventListeners": 584,
+          "metrics": {
+            "taskDurationMs": 1788.32,
+            "scriptDurationMs": 298.36,
+            "layoutDurationMs": 129.43,
+            "recalcStyleDurationMs": 27.44,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 38,
+            "recalcStyleCount": 39,
+            "nodesMetric": 444
+          },
+          "processInfo": []
+        },
+        "heapDeltaMb": 0.73,
+        "domNodeDelta": 144
+      }
+    },
+    "warm": {
+      "repeats": 5,
+      "samplesMs": [
+        33.2,
+        33,
+        33.8,
+        33.4,
+        33.4
+      ],
+      "medianMs": 33.4,
+      "p95Ms": 33.8
+    }
+  },
+  "largeFile": {
+    "fixture": {
+      "root": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\large-file",
+      "file": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\large-file\\large.txt",
+      "bytes": 8400075
+    },
+    "read": {
+      "label": "large-file-read-raw",
+      "wallMs": 84784.74,
+      "result": {
+        "ms": 84783.4,
+        "ok": true,
+        "bytes": 8400075,
+        "size": 8400075
+      },
+      "error": null,
+      "cpu": {
+        "taskDurationMs": 89.92,
+        "scriptDurationMs": 0.6,
+        "layoutDurationMs": 0,
+        "recalcStyleDurationMs": 0,
+        "v8CompileDurationMs": 0,
+        "taskUtilizationPct": 0.11
+      },
+      "cpuProfile": {
+        "durationMs": 84832.35,
+        "sampleCount": 48833,
+        "totalSampledMs": 84832.14,
+        "topFunctions": [
+          {
+            "functionName": "(idle)",
+            "url": "",
+            "line": 0,
+            "selfMs": 84754.48,
+            "selfPct": 99.91
+          },
+          {
+            "functionName": "(program)",
+            "url": "",
+            "line": 0,
+            "selfMs": 60.43,
+            "selfPct": 0.07
+          },
+          {
+            "functionName": "(garbage collector)",
+            "url": "",
+            "line": 0,
+            "selfMs": 17.24,
+            "selfPct": 0.02
+          }
+        ]
+      },
+      "memory": {
+        "before": {
+          "jsHeapUsedMb": 15.75,
+          "jsHeapTotalMb": 17.7,
+          "domNodes": 272,
+          "documents": 2,
+          "jsEventListeners": 353,
+          "metrics": {
+            "taskDurationMs": 1977.22,
+            "scriptDurationMs": 374.41,
+            "layoutDurationMs": 140.48,
+            "recalcStyleDurationMs": 47.52,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 75,
+            "recalcStyleCount": 76,
+            "nodesMetric": 272
+          },
+          "processInfo": []
+        },
+        "after": {
+          "jsHeapUsedMb": 22.72,
+          "jsHeapTotalMb": 25.21,
+          "domNodes": 272,
+          "documents": 2,
+          "jsEventListeners": 353,
+          "metrics": {
+            "taskDurationMs": 2067.14,
+            "scriptDurationMs": 375.01,
+            "layoutDurationMs": 140.48,
+            "recalcStyleDurationMs": 47.52,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 75,
+            "recalcStyleCount": 76,
+            "nodesMetric": 272
+          },
+          "processInfo": []
+        },
+        "heapDeltaMb": 6.97,
+        "domNodeDelta": 0
+      }
+    },
+    "open": {
+      "label": "large-file-open",
+      "wallMs": 164.2,
+      "result": {
+        "apiAndRenderMs": 162.4,
+        "activePath": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\large-file\\large.txt",
+        "expectedPath": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\large-file\\large.txt",
+        "tabSize": 1,
+        "modelLength": 8400075,
+        "lineCount": 150076,
+        "hasModel": true,
+        "hasEditor": true,
+        "warning": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\large-file\\large.txt",
+        "lastPollActivePath": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\large-file\\large.txt"
+      },
+      "error": null,
+      "cpu": {
+        "taskDurationMs": 194.21,
+        "scriptDurationMs": 110.57,
+        "layoutDurationMs": 3.75,
+        "recalcStyleDurationMs": 3.19,
+        "v8CompileDurationMs": 0,
+        "taskUtilizationPct": 118.28
+      },
+      "cpuProfile": {
+        "durationMs": 220.45,
+        "sampleCount": 111,
+        "totalSampledMs": 220.19,
+        "topFunctions": [
+          {
+            "functionName": "(program)",
+            "url": "",
+            "line": 0,
+            "selfMs": 53.67,
+            "selfPct": 24.37
+          },
+          {
+            "functionName": "(idle)",
+            "url": "",
+            "line": 0,
+            "selfMs": 32.95,
+            "selfPct": 14.96
+          },
+          {
+            "functionName": "fDe",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 567,
+            "selfMs": 32.18,
+            "selfPct": 14.61
+          },
+          {
+            "functionName": "(garbage collector)",
+            "url": "",
+            "line": 0,
+            "selfMs": 30.72,
+            "selfPct": 13.95
+          },
+          {
+            "functionName": "(anonymous)",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 23,
+            "selfMs": 11.45,
+            "selfPct": 5.2
+          },
+          {
+            "functionName": "(anonymous)",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 567,
+            "selfMs": 6.1,
+            "selfPct": 2.77
+          },
+          {
+            "functionName": "getClientRects",
+            "url": "",
+            "line": 0,
+            "selfMs": 5.95,
+            "selfPct": 2.7
+          },
+          {
+            "functionName": "_constructLines",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 662,
+            "selfMs": 5.3,
+            "selfPct": 2.41
+          }
+        ]
+      },
+      "memory": {
+        "before": {
+          "jsHeapUsedMb": 22.72,
+          "jsHeapTotalMb": 25.21,
+          "domNodes": 272,
+          "documents": 2,
+          "jsEventListeners": 353,
+          "metrics": {
+            "taskDurationMs": 2067.61,
+            "scriptDurationMs": 375.01,
+            "layoutDurationMs": 140.48,
+            "recalcStyleDurationMs": 47.52,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 75,
+            "recalcStyleCount": 76,
+            "nodesMetric": 272
+          },
+          "processInfo": []
+        },
+        "after": {
+          "jsHeapUsedMb": 52.02,
+          "jsHeapTotalMb": 65.68,
+          "domNodes": 719,
+          "documents": 2,
+          "jsEventListeners": 399,
+          "metrics": {
+            "taskDurationMs": 2261.82,
+            "scriptDurationMs": 485.58,
+            "layoutDurationMs": 144.23,
+            "recalcStyleDurationMs": 50.71,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 78,
+            "recalcStyleCount": 79,
+            "nodesMetric": 719
+          },
+          "processInfo": []
+        },
+        "heapDeltaMb": 29.3,
+        "domNodeDelta": 447
+      }
+    }
+  },
+  "typing": {
+    "opened": {
+      "apiAndRenderMs": 15.1,
+      "activePath": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\typing\\typing.js",
+      "expectedPath": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\typing\\typing.js",
+      "tabSize": 1,
+      "modelLength": 5780,
+      "lineCount": 201,
+      "hasModel": true,
+      "hasEditor": true,
+      "warning": null,
+      "lastPollActivePath": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\typing\\typing.js"
+    },
+    "chars": 120,
+    "wallMs": 3997.51,
+    "perCharMs": {
+      "p50": 33.29,
+      "p95": 34.43,
+      "max": 36.01
+    },
+    "cpu": {
+      "taskDurationMs": 1103.31,
+      "scriptDurationMs": 444.63,
+      "layoutDurationMs": 92.58,
+      "taskUtilizationPct": 27.6
+    },
+    "cpuProfile": {
+      "durationMs": 4053.41,
+      "sampleCount": 2346,
+      "totalSampledMs": 4053.07,
+      "topFunctions": [
+        {
+          "functionName": "(idle)",
+          "url": "",
+          "line": 0,
+          "selfMs": 2898.99,
+          "selfPct": 71.53
+        },
+        {
+          "functionName": "(program)",
+          "url": "",
+          "line": 0,
+          "selfMs": 520.2,
+          "selfPct": 12.83
+        },
+        {
+          "functionName": "getClientRects",
+          "url": "",
+          "line": 0,
+          "selfMs": 55.49,
+          "selfPct": 1.37
+        },
+        {
+          "functionName": "_renderSectionHeaders",
+          "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+          "line": 661,
+          "selfMs": 53.16,
+          "selfPct": 1.31
+        },
+        {
+          "functionName": "(garbage collector)",
+          "url": "",
+          "line": 0,
+          "selfMs": 32.9,
+          "selfPct": 0.81
+        },
+        {
+          "functionName": "getClientRects",
+          "url": "",
+          "line": 0,
+          "selfMs": 28.3,
+          "selfPct": 0.7
+        },
+        {
+          "functionName": "getWordAtPosition",
+          "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+          "line": 583,
+          "selfMs": 10.92,
+          "selfPct": 0.27
+        },
+        {
+          "functionName": "replaceChild",
+          "url": "",
+          "line": 0,
+          "selfMs": 10.73,
+          "selfPct": 0.26
+        }
+      ]
+    },
+    "memory": {
+      "before": {
+        "jsHeapUsedMb": 47.86,
+        "jsHeapTotalMb": 62.1,
+        "domNodes": 1162,
+        "documents": 2,
+        "jsEventListeners": 586,
+        "metrics": {
+          "taskDurationMs": 2318.11,
+          "scriptDurationMs": 499.92,
+          "layoutDurationMs": 148.66,
+          "recalcStyleDurationMs": 55.49,
+          "v8CompileDurationMs": 0,
+          "layoutCount": 85,
+          "recalcStyleCount": 87,
+          "nodesMetric": 1162
+        },
+        "processInfo": []
+      },
+      "after": {
+        "jsHeapUsedMb": 28.45,
+        "jsHeapTotalMb": 43.71,
+        "domNodes": 1535,
+        "documents": 3,
+        "jsEventListeners": 359,
+        "metrics": {
+          "taskDurationMs": 3421.42,
+          "scriptDurationMs": 944.55,
+          "layoutDurationMs": 241.24,
+          "recalcStyleDurationMs": 130.72,
+          "v8CompileDurationMs": 0,
+          "layoutCount": 466,
+          "recalcStyleCount": 356,
+          "nodesMetric": 1535
+        },
+        "processInfo": []
+      }
+    }
+  },
+  "terminal": {
+    "create": {
+      "label": "terminal-create",
+      "wallMs": 81.21,
+      "result": {
+        "id": "term-2-1790579331173",
+        "ms": 79.8,
+        "terminalCount": 2
+      },
+      "error": null,
+      "cpu": {
+        "taskDurationMs": 79.64,
+        "scriptDurationMs": 9.81,
+        "layoutDurationMs": 1.89,
+        "recalcStyleDurationMs": 4.15,
+        "v8CompileDurationMs": 0,
+        "taskUtilizationPct": 98.07
+      },
+      "cpuProfile": {
+        "durationMs": 134.75,
+        "sampleCount": 55,
+        "totalSampledMs": 134.5,
+        "topFunctions": [
+          {
+            "functionName": "(idle)",
+            "url": "",
+            "line": 0,
+            "selfMs": 66.17,
+            "selfPct": 49.2
+          },
+          {
+            "functionName": "(program)",
+            "url": "",
+            "line": 0,
+            "selfMs": 56.37,
+            "selfPct": 41.91
+          },
+          {
+            "functionName": "_measure",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 850,
+            "selfMs": 1.79,
+            "selfPct": 1.33
+          },
+          {
+            "functionName": "_measure",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 850,
+            "selfMs": 1.77,
+            "selfPct": 1.32
+          },
+          {
+            "functionName": "focus",
+            "url": "",
+            "line": 0,
+            "selfMs": 1.75,
+            "selfPct": 1.3
+          },
+          {
+            "functionName": "(anonymous)",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 858,
+            "selfMs": 1.71,
+            "selfPct": 1.27
+          },
+          {
+            "functionName": "register",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 852,
+            "selfMs": 1.38,
+            "selfPct": 1.02
+          },
+          {
+            "functionName": "(anonymous)",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 661,
+            "selfMs": 1.3,
+            "selfPct": 0.97
+          }
+        ]
+      },
+      "memory": {
+        "before": {
+          "jsHeapUsedMb": 25.7,
+          "jsHeapTotalMb": 28.21,
+          "domNodes": 1197,
+          "documents": 3,
+          "jsEventListeners": 404,
+          "metrics": {
+            "taskDurationMs": 3518.62,
+            "scriptDurationMs": 973.72,
+            "layoutDurationMs": 253.2,
+            "recalcStyleDurationMs": 137.58,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 488,
+            "recalcStyleCount": 382,
+            "nodesMetric": 1197
+          },
+          "processInfo": []
+        },
+        "after": {
+          "jsHeapUsedMb": 26.51,
+          "jsHeapTotalMb": 28.46,
+          "domNodes": 1293,
+          "documents": 3,
+          "jsEventListeners": 465,
+          "metrics": {
+            "taskDurationMs": 3598.26,
+            "scriptDurationMs": 983.53,
+            "layoutDurationMs": 255.09,
+            "recalcStyleDurationMs": 141.73,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 501,
+            "recalcStyleCount": 403,
+            "nodesMetric": 1293
+          },
+          "processInfo": []
+        },
+        "heapDeltaMb": 0.81,
+        "domNodeDelta": 96
+      }
+    },
+    "output": {
+      "label": "terminal-long-output",
+      "wallMs": 1249.27,
+      "result": {
+        "id": "term-2-1790579331173",
+        "bytes": 1789029,
+        "chunks": 6102,
+        "firstDataMs": 170.1,
+        "totalMs": 1247.6
+      },
+      "error": null,
+      "cpu": {
+        "taskDurationMs": 507,
+        "scriptDurationMs": 109.11,
+        "layoutDurationMs": 24.27,
+        "recalcStyleDurationMs": 22.88,
+        "v8CompileDurationMs": 0,
+        "taskUtilizationPct": 40.58
+      },
+      "cpuProfile": {
+        "durationMs": 1303.72,
+        "sampleCount": 776,
+        "totalSampledMs": 1303.51,
+        "topFunctions": [
+          {
+            "functionName": "(idle)",
+            "url": "",
+            "line": 0,
+            "selfMs": 844,
+            "selfPct": 64.75
+          },
+          {
+            "functionName": "(program)",
+            "url": "",
+            "line": 0,
+            "selfMs": 230.4,
+            "selfPct": 17.68
+          },
+          {
+            "functionName": "(anonymous)",
+            "url": "",
+            "line": 0,
+            "selfMs": 26.94,
+            "selfPct": 2.07
+          },
+          {
+            "functionName": "setTimeout",
+            "url": "",
+            "line": 0,
+            "selfMs": 20.96,
+            "selfPct": 1.61
+          },
+          {
+            "functionName": "print",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 852,
+            "selfMs": 17.67,
+            "selfPct": 1.36
+          },
+          {
+            "functionName": "r",
+            "url": "<repo>\\release\\win-unpacked\\resources\\app.asar\\dist-electron\\preload.js",
+            "line": 1,
+            "selfMs": 17.27,
+            "selfPct": 1.32
+          },
+          {
+            "functionName": "clone",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 852,
+            "selfMs": 15.21,
+            "selfPct": 1.17
+          },
+          {
+            "functionName": "decode",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 853,
+            "selfMs": 9.53,
+            "selfPct": 0.73
+          }
+        ]
+      },
+      "memory": {
+        "before": {
+          "jsHeapUsedMb": 26.51,
+          "jsHeapTotalMb": 28.46,
+          "domNodes": 1293,
+          "documents": 3,
+          "jsEventListeners": 465,
+          "metrics": {
+            "taskDurationMs": 3598.57,
+            "scriptDurationMs": 983.53,
+            "layoutDurationMs": 255.09,
+            "recalcStyleDurationMs": 141.73,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 501,
+            "recalcStyleCount": 403,
+            "nodesMetric": 1293
+          },
+          "processInfo": []
+        },
+        "after": {
+          "jsHeapUsedMb": 28.8,
+          "jsHeapTotalMb": 38.21,
+          "domNodes": 2721,
+          "documents": 3,
+          "jsEventListeners": 429,
+          "metrics": {
+            "taskDurationMs": 4105.57,
+            "scriptDurationMs": 1092.64,
+            "layoutDurationMs": 279.36,
+            "recalcStyleDurationMs": 164.61,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 606,
+            "recalcStyleCount": 589,
+            "nodesMetric": 2721
+          },
+          "processInfo": []
+        },
+        "heapDeltaMb": 2.29,
+        "domNodeDelta": 1428
+      }
+    }
+  },
+  "git": {
+    "fixture": {
+      "root": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\git-large",
+      "trackedFiles": 2000,
+      "changes": 25
+    },
+    "open": {
+      "label": "git-workspace-open",
+      "wallMs": 152.83,
+      "result": {
+        "apiMs": 60.8,
+        "responseOk": true,
+        "root": "C:\\Users\\NITINP~1\\AppData\\Local\\Temp\\cc-phase16-bFITOX\\git-large",
+        "rootChildren": 40
+      },
+      "error": null,
+      "cpu": {
+        "taskDurationMs": 84.4,
+        "scriptDurationMs": 9.93,
+        "layoutDurationMs": 2.62,
+        "recalcStyleDurationMs": 3.12,
+        "v8CompileDurationMs": 0,
+        "taskUtilizationPct": 55.22
+      },
+      "cpuProfile": {
+        "durationMs": 208.09,
+        "sampleCount": 96,
+        "totalSampledMs": 207.9,
+        "topFunctions": [
+          {
+            "functionName": "(idle)",
+            "url": "",
+            "line": 0,
+            "selfMs": 139.73,
+            "selfPct": 67.21
+          },
+          {
+            "functionName": "(program)",
+            "url": "",
+            "line": 0,
+            "selfMs": 58.05,
+            "selfPct": 27.92
+          },
+          {
+            "functionName": "If",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 808,
+            "selfMs": 1.78,
+            "selfPct": 0.85
+          },
+          {
+            "functionName": "createElementNS",
+            "url": "",
+            "line": 0,
+            "selfMs": 1.7,
+            "selfPct": 0.82
+          },
+          {
+            "functionName": "bv",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 808,
+            "selfMs": 1.68,
+            "selfPct": 0.81
+          },
+          {
+            "functionName": "Gn",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 808,
+            "selfMs": 1.66,
+            "selfPct": 0.8
+          },
+          {
+            "functionName": "qq",
+            "url": "/E:/closecode/release/win-unpacked/resources/app.asar/dist/assets/index-BlHwKZxJ.js",
+            "line": 808,
+            "selfMs": 1.66,
+            "selfPct": 0.8
+          },
+          {
+            "functionName": "(garbage collector)",
+            "url": "",
+            "line": 0,
+            "selfMs": 1.65,
+            "selfPct": 0.79
+          }
+        ]
+      },
+      "memory": {
+        "before": {
+          "jsHeapUsedMb": 26.02,
+          "jsHeapTotalMb": 28.71,
+          "domNodes": 929,
+          "documents": 3,
+          "jsEventListeners": 403,
+          "metrics": {
+            "taskDurationMs": 4164.8,
+            "scriptDurationMs": 1103.27,
+            "layoutDurationMs": 282.87,
+            "recalcStyleDurationMs": 171.28,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 622,
+            "recalcStyleCount": 611,
+            "nodesMetric": 929
+          },
+          "processInfo": []
+        },
+        "after": {
+          "jsHeapUsedMb": 27.18,
+          "jsHeapTotalMb": 32.21,
+          "domNodes": 1545,
+          "documents": 3,
+          "jsEventListeners": 1125,
+          "metrics": {
+            "taskDurationMs": 4249.2,
+            "scriptDurationMs": 1113.2,
+            "layoutDurationMs": 285.49,
+            "recalcStyleDurationMs": 174.4,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 659,
+            "recalcStyleCount": 661,
+            "nodesMetric": 1545
+          },
+          "processInfo": []
+        },
+        "heapDeltaMb": 1.16,
+        "domNodeDelta": 616
+      }
+    },
+    "status": {
+      "label": "git-status-large",
+      "wallMs": 51.11,
+      "result": {
+        "isRepo": true,
+        "files": 25,
+        "untracked": 25,
+        "ms": 50
+      },
+      "error": null,
+      "cpu": {
+        "taskDurationMs": 61.04,
+        "scriptDurationMs": 0.04,
+        "layoutDurationMs": 0,
+        "recalcStyleDurationMs": 0.57,
+        "v8CompileDurationMs": 0,
+        "taskUtilizationPct": 119.43
+      },
+      "cpuProfile": {
+        "durationMs": 103.87,
+        "sampleCount": 33,
+        "totalSampledMs": 103.69,
+        "topFunctions": [
+          {
+            "functionName": "(program)",
+            "url": "",
+            "line": 0,
+            "selfMs": 54.27,
+            "selfPct": 52.34
+          },
+          {
+            "functionName": "(idle)",
+            "url": "",
+            "line": 0,
+            "selfMs": 47.87,
+            "selfPct": 46.16
+          },
+          {
+            "functionName": "(anonymous)",
+            "url": "",
+            "line": 1,
+            "selfMs": 1.55,
+            "selfPct": 1.49
+          }
+        ]
+      },
+      "memory": {
+        "before": {
+          "jsHeapUsedMb": 27.18,
+          "jsHeapTotalMb": 32.21,
+          "domNodes": 1545,
+          "documents": 3,
+          "jsEventListeners": 1125,
+          "metrics": {
+            "taskDurationMs": 4249.79,
+            "scriptDurationMs": 1113.2,
+            "layoutDurationMs": 285.49,
+            "recalcStyleDurationMs": 174.4,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 659,
+            "recalcStyleCount": 661,
+            "nodesMetric": 1545
+          },
+          "processInfo": []
+        },
+        "after": {
+          "jsHeapUsedMb": 27.2,
+          "jsHeapTotalMb": 32.21,
+          "domNodes": 1545,
+          "documents": 3,
+          "jsEventListeners": 1125,
+          "metrics": {
+            "taskDurationMs": 4310.83,
+            "scriptDurationMs": 1113.24,
+            "layoutDurationMs": 285.49,
+            "recalcStyleDurationMs": 174.97,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 659,
+            "recalcStyleCount": 668,
+            "nodesMetric": 1545
+          },
+          "processInfo": []
+        },
+        "heapDeltaMb": 0.02,
+        "domNodeDelta": 0
+      }
+    },
+    "log": {
+      "label": "git-log-large",
+      "wallMs": 46.87,
+      "result": {
+        "entries": 1,
+        "ms": 45.7
+      },
+      "error": null,
+      "cpu": {
+        "taskDurationMs": 60.89,
+        "scriptDurationMs": 0,
+        "layoutDurationMs": 0,
+        "recalcStyleDurationMs": 0.45,
+        "v8CompileDurationMs": 0,
+        "taskUtilizationPct": 129.92
+      },
+      "cpuProfile": {
+        "durationMs": 100.46,
+        "sampleCount": 30,
+        "totalSampledMs": 100.29,
+        "topFunctions": [
+          {
+            "functionName": "(program)",
+            "url": "",
+            "line": 0,
+            "selfMs": 52.96,
+            "selfPct": 52.81
+          },
+          {
+            "functionName": "(idle)",
+            "url": "",
+            "line": 0,
+            "selfMs": 43.97,
+            "selfPct": 43.84
+          },
+          {
+            "functionName": "(anonymous)",
+            "url": "",
+            "line": 1,
+            "selfMs": 1.71,
+            "selfPct": 1.71
+          },
+          {
+            "functionName": "gitLog",
+            "url": "<repo>\\release\\win-unpacked\\resources\\app.asar\\dist-electron\\preload.js",
+            "line": 1,
+            "selfMs": 1.65,
+            "selfPct": 1.64
+          }
+        ]
+      },
+      "memory": {
+        "before": {
+          "jsHeapUsedMb": 27.2,
+          "jsHeapTotalMb": 32.21,
+          "domNodes": 1545,
+          "documents": 3,
+          "jsEventListeners": 1125,
+          "metrics": {
+            "taskDurationMs": 4311.27,
+            "scriptDurationMs": 1113.24,
+            "layoutDurationMs": 285.49,
+            "recalcStyleDurationMs": 174.97,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 659,
+            "recalcStyleCount": 668,
+            "nodesMetric": 1545
+          },
+          "processInfo": []
+        },
+        "after": {
+          "jsHeapUsedMb": 27.21,
+          "jsHeapTotalMb": 32.21,
+          "domNodes": 1545,
+          "documents": 3,
+          "jsEventListeners": 1125,
+          "metrics": {
+            "taskDurationMs": 4372.16,
+            "scriptDurationMs": 1113.24,
+            "layoutDurationMs": 285.49,
+            "recalcStyleDurationMs": 175.42,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 659,
+            "recalcStyleCount": 674,
+            "nodesMetric": 1545
+          },
+          "processInfo": []
+        },
+        "heapDeltaMb": 0.01,
+        "domNodeDelta": 0
+      }
+    }
+  },
+  "memory": {
+    "baseline": {
+      "jsHeapUsedMb": 27.21,
+      "jsHeapTotalMb": 32.21,
+      "domNodes": 1545,
+      "documents": 3,
+      "jsEventListeners": 1125,
+      "metrics": {
+        "taskDurationMs": 4372.53,
+        "scriptDurationMs": 1113.24,
+        "layoutDurationMs": 285.49,
+        "recalcStyleDurationMs": 175.42,
+        "v8CompileDurationMs": 0,
+        "layoutCount": 659,
+        "recalcStyleCount": 674,
+        "nodesMetric": 1545
+      },
+      "processInfo": []
+    },
+    "afterScenarios": [
+      {
+        "count": 100,
+        "search": {
+          "jsHeapUsedMb": 13.11,
+          "jsHeapTotalMb": 15.45,
+          "domNodes": 255,
+          "documents": 2,
+          "jsEventListeners": 353,
+          "metrics": {
+            "taskDurationMs": 679.69,
+            "scriptDurationMs": 204.6,
+            "layoutDurationMs": 109.93,
+            "recalcStyleDurationMs": 12.8,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 13,
+            "recalcStyleCount": 14,
+            "nodesMetric": 255
+          },
+          "processInfo": []
+        }
+      },
+      {
+        "count": 1000,
+        "search": {
+          "jsHeapUsedMb": 13.98,
+          "jsHeapTotalMb": 15.45,
+          "domNodes": 255,
+          "documents": 2,
+          "jsEventListeners": 353,
+          "metrics": {
+            "taskDurationMs": 945.28,
+            "scriptDurationMs": 210.13,
+            "layoutDurationMs": 111.56,
+            "recalcStyleDurationMs": 13.48,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 15,
+            "recalcStyleCount": 16,
+            "nodesMetric": 255
+          },
+          "processInfo": []
+        }
+      },
+      {
+        "count": 10000,
+        "search": {
+          "jsHeapUsedMb": 16.67,
+          "jsHeapTotalMb": 20.95,
+          "domNodes": 255,
+          "documents": 2,
+          "jsEventListeners": 353,
+          "metrics": {
+            "taskDurationMs": 1286.91,
+            "scriptDurationMs": 215.36,
+            "layoutDurationMs": 112.41,
+            "recalcStyleDurationMs": 14.05,
+            "v8CompileDurationMs": 0,
+            "layoutCount": 17,
+            "recalcStyleCount": 18,
+            "nodesMetric": 255
+          },
+          "processInfo": []
+        }
+      }
+    ],
+    "largeFile": {
+      "jsHeapUsedMb": 52.02,
+      "jsHeapTotalMb": 65.68,
+      "domNodes": 719,
+      "documents": 2,
+      "jsEventListeners": 399,
+      "metrics": {
+        "taskDurationMs": 2261.82,
+        "scriptDurationMs": 485.58,
+        "layoutDurationMs": 144.23,
+        "recalcStyleDurationMs": 50.71,
+        "v8CompileDurationMs": 0,
+        "layoutCount": 78,
+        "recalcStyleCount": 79,
+        "nodesMetric": 719
+      },
+      "processInfo": []
+    },
+    "typing": {
+      "jsHeapUsedMb": 28.45,
+      "jsHeapTotalMb": 43.71,
+      "domNodes": 1535,
+      "documents": 3,
+      "jsEventListeners": 359,
+      "metrics": {
+        "taskDurationMs": 3421.42,
+        "scriptDurationMs": 944.55,
+        "layoutDurationMs": 241.24,
+        "recalcStyleDurationMs": 130.72,
+        "v8CompileDurationMs": 0,
+        "layoutCount": 466,
+        "recalcStyleCount": 356,
+        "nodesMetric": 1535
+      },
+      "processInfo": []
+    },
+    "terminal": {
+      "jsHeapUsedMb": 28.8,
+      "jsHeapTotalMb": 38.21,
+      "domNodes": 2721,
+      "documents": 3,
+      "jsEventListeners": 429,
+      "metrics": {
+        "taskDurationMs": 4105.57,
+        "scriptDurationMs": 1092.64,
+        "layoutDurationMs": 279.36,
+        "recalcStyleDurationMs": 164.61,
+        "v8CompileDurationMs": 0,
+        "layoutCount": 606,
+        "recalcStyleCount": 589,
+        "nodesMetric": 2721
+      },
+      "processInfo": []
+    },
+    "git": {
+      "jsHeapUsedMb": 27.2,
+      "jsHeapTotalMb": 32.21,
+      "domNodes": 1545,
+      "documents": 3,
+      "jsEventListeners": 1125,
+      "metrics": {
+        "taskDurationMs": 4310.83,
+        "scriptDurationMs": 1113.24,
+        "layoutDurationMs": 285.49,
+        "recalcStyleDurationMs": 174.97,
+        "v8CompileDurationMs": 0,
+        "layoutCount": 659,
+        "recalcStyleCount": 668,
+        "nodesMetric": 1545
+      },
+      "processInfo": []
+    }
+  },
+  "errors": []
+}
